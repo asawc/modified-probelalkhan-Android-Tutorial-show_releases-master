@@ -40,17 +40,19 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
                     android:padding="10dp"
                     android:text="Product name"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <TextView
                     android:id="@+id/textViewProductname"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
                     android:padding="10dp"
-                    android:text="Wziernik plastikowy DN50"
+                    android:text="Przekaźnik sondy poziomu (2-prętowy) NVG200-3-A-1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             </TableRow>
@@ -82,13 +84,13 @@
         <Button
             android:id="@+id/buttonScan2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:text="Scan" />
 
         <Button
             android:id="@+id/buttonLogout3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:text="Logout" />
     </LinearLayout>
 

@@ -59,12 +59,16 @@ public class ScanActivity extends AppCompatActivity {
                 });
             }
         });
+
+        mCodeScanner.startPreview();
+
         scannerView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mCodeScanner.startPreview();
             }
         });
+
         findViewById(R.id.buttonCheck).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
