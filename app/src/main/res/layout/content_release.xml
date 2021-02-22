@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dip"
+        android:paddingStart="10dip"
+        android:paddingEnd="10dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="74dp">
+
+        <TextView
+            android:id="@+id/id_release"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:gravity="start"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/employee_surname"
+            android:layout_width="109dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/status"
+            android:gravity="start"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/date_creation"
+            android:layout_width="129dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="false"
+            android:layout_toEndOf="@+id/id_release"
+            android:gravity="start"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/date_creation"
+            android:gravity="start"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
