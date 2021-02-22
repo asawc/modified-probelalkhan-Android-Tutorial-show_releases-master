@@ -26,32 +26,34 @@
         android:layout_gravity="bottom|end"/>
 
 
-    <androidx.appcompat.widget.Toolbar
-        android:layout_height="?attr/actionBarSize"
-        android:layout_width="match_parent"
-        android:id="@+id/toolbar"
-        app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:layout_anchorGravity="center"
-        app:layout_anchor="@+id/appBarLayout"
-        android:visibility="visible"
-        android:background="?attr/colorPrimary">
 
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:id="@+id/textView"
-        android:textSize="22dp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
-        android:text="Wydania"/>
-
-</androidx.appcompat.widget.Toolbar>
 
 
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_anchorGravity="center"
+            app:layout_anchor="@+id/appBarLayout"
+            android:visibility="visible"
+            android:background="?attr/colorPrimary">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/textView"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:text="Wydania"/>
+
+        </androidx.appcompat.widget.Toolbar>
 
     <ListView
         android:layout_height="match_parent"
