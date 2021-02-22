@@ -28,10 +28,34 @@
 
         <TextView
             android:id="@+id/employee_surname"
-            android:layout_width="109dp"
-            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/status"
+            android:gravity="start"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/employee_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/employee_surname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toEndOf="@+id/status"
+            android:gravity="start"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/employee_surname2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_below="@+id/employee_surname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="10dp"
             android:layout_toEndOf="@+id/status"
             android:gravity="start"
             android:textSize="20sp" />

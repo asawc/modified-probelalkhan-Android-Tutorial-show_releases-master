@@ -197,8 +197,8 @@ public class ReleaseActivity extends ListActivity {
                         ListAdapter adapter = new SimpleAdapter(
                                 ReleaseActivity.this, releasesList,
                                 R.layout.content_release, new String[] { //TAG_ID,
-                                "id", "date_creation", "status", }, new int[] { //R.id.id,
-                                R.id.id_release,  R.id.date_creation,  R.id.status, /*R.id.id_employee*/});
+                                "id", "date_creation", "status", "surname", "name"}, new int[] { //R.id.id,
+                                R.id.id_release, R.id.date_creation,  R.id.status, R.id.employee_surname, R.id.employee_name/*R.id.id_employee*/});
                         // updating listview
                         setListAdapter(adapter);
                     }
